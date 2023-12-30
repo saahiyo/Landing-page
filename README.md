@@ -4,7 +4,6 @@ A mobile first web project that beautifully presents the essence of character. W
 
 ## Features
 
-- Responsive design
 - Interactive navigation sidebar
 - Animated text using SplitType and GSAP
 - Explore button with subtle animation
