@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<title> Character 2.0</title>
+</head>
+<body>
+<main>
+   <nav>
+      <div class="navi">
+         <div class="left">
+            <i class="ri-menu-2-line menu" onclick="togglesideBar()"></i>
+         </div>
+         <div class="right">
+            <i class="ri-image-circle-line"></i>
+         </div> 
+      </div> 
+   </nav>
+   <div class="sideBar">
+       <div class="close" onclick="togglesideBar()">
+           <i class="ri-close-line closeI"></i>
+           <i class="ri-arrow-left-line arr"></i>
+           <p class="arr" > close </p>
+       </div>
+       <p class="Mt" > Menu </p>
+       <div class="menuItems">
+	     <li>
+	       <i class="ri-home-2-line"></i>
+	       <a href="#"> Home </a>
+	     </li>
+	     <li>
+	      <i class="ri-user-line"></i>
+	      <a href="#"> Profile </a>
+	     </li>
+	     <li>
+	       <i class="ri-gallery-line"></i>
+	       <a href="#"> Gallery </a>
+	     </li>
+	     <li>
+	        <i class="ri-edit-line"></i>
+	        <a href="#"> Edit </a>
+	     </li>
+	     <li>
+	        <i class="ri-customer-service-2-line"></i>
+	        <a href="#"> Contact </a>
+	     </li>
+	     <li>
+	        <i class="ri-login-box-line"></i>
+	        <a href="#"> Login </a>
+	     </li>
+       </div> 
+   </div> 
+   <div id="page" class="page1">
+      <div class="textContent" animate>
+         <h1> Character </h1>
+         <p> <q>Character is the compass that guides us through the storms and calms alike, revealing the true essence of who we are </q></p>
+      </div>
+      <div class="imgCont">
+        <img src="https://i.postimg.cc/wxVsymVJ/1701805029596.jpg">
+        <div class="back"></div> 
+      </div>
+     <button class="btn"> Explore </button>
+   </div>
+   <script src="https://unpkg.com/split-type"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+   <script src="script.js"></script>
+</body>
